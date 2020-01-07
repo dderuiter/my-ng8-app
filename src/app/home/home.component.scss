@@ -1,0 +1,27 @@
+span {
+    font-weight: bold;
+    color: white;
+    background: rgb(41, 41, 41);
+    padding: .3em .8em;
+    cursor: pointer;
+    user-select: none;
+}
+
+.play-container {
+    padding: 3em;
+    border: 1px solid lightgrey;
+    margin-bottom: 1em;
+
+    input {
+        padding: 1em;
+        margin-bottom: 2em;
+    }
+}
+
+.active {
+    border-radius: 25px;
+}
+
+.notactive {
+    opacity: 0.5;
+}
